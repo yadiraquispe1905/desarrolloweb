@@ -1,0 +1,143 @@
+body{
+    background-color: gainsboro;
+}
+#cabeza{
+    margin:25px auto;
+    padding: 15px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#autor{
+    font-weight: bold;
+    text-align: end;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#marco{
+    width: 40%;
+    border: 1px solid grey;
+    margin:25px auto;
+    padding: 15px;
+    background-image: url(imagenes/fondo.jpg);
+    
+
+}
+.isil{
+    height: 90px;
+    width: auto;
+    border-radius: 50%;
+}
+h3{
+    text-decoration: underline;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#titulo{
+    color: rgb(85, 164, 243);
+    text-shadow: 10px 13px 15px grey;
+    text-align: right;
+    height: 20px auto;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: whitesmoke;
+}
+#definiciones{
+    border: 3px solid black;
+    padding: 15px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.definición{
+    width: 30%;
+}
+.definición img{
+    width:50%;
+    height: 30%;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+
+}
+h4{
+    color: aliceblue;
+    text-align: center;
+    font-family: "Manrope", sans-serif;
+}
+.html{
+    border: 1px solid black;
+    background-color:rgb(244, 234, 216);
+    padding: 5px;
+}
+.uno{
+    background-color: coral;
+}
+.css{
+    border: 1px solid black;
+    background-color:rgb(176, 213, 251);
+    padding: 5px;
+}
+.dos{
+    background-color:dodgerblue;
+}
+.javascript{
+    border: 1px solid black;
+    background-color: rgb(203, 227, 203);
+    padding: 5px
+}
+.tres{
+    background-color:limegreen;
+}
+#analogias{
+    border: 3px solid black;
+    padding: 15px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.analogia{
+    width: 30%;
+}
+.h{
+    border: 1px solid black;
+    background-color:rgb(244, 234, 216);
+    padding: 5px;
+}
+.naranja{
+    background-color: coral;
+}
+.c{
+    border: 1px solid black;
+    background-color:rgb(176, 213, 251);
+    padding: 5px;
+}
+.azul{
+    background-color:dodgerblue;
+}
+.js{
+    border: 1px solid black;
+    background-color: rgb(203, 227, 203);
+    padding: 5px;
+}
+.verde{
+    background-color:limegreen;
+}
+#casa img{
+    max-width: 40%;
+    display: block;
+    margin: auto;
+    box-shadow: 10px 6px 5px grey;
+}
+#ultimo{
+    text-align: center;
+    background-color: gainsboro;
+    box-shadow: 4px 2px 5px grey;
+    border: 3px solid gray;
+    border-radius: 10px;
+}
+p{
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+}
